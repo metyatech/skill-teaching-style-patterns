@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teaching Style Patterns"
+  short_description: "Help choose and apply lesson design patterns"
+  default_prompt: "Use teaching style patterns to design lessons, syllabi, and teaching materials."

@@ -1,0 +1,31 @@
+{
+  "name": "skill-teaching-style-patterns",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skill for reusable teaching style patterns across lesson artifacts",
+  "license": "MIT",
+  "homepage": "https://github.com/metyatech/skill-teaching-style-patterns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metyatech/skill-teaching-style-patterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metyatech/skill-teaching-style-patterns/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "markdownlint **/*.md --ignore node_modules --ignore AGENTS.md",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "verify": "npm run format:check && npm run lint",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "compose-agentsmd": "^3.5.1",
+    "husky": "^9.1.7",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.1"
+  }
+}
