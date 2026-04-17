@@ -26,6 +26,6 @@
     "compose-agentsmd": "^3.5.1",
     "husky": "^9.1.7",
     "markdownlint-cli": "^0.48.0",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.3"
   }
 }
